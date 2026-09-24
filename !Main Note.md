@@ -66,7 +66,7 @@ ___
 >Ne rejtsetek el fokuszalhato elemet
 Minden interkativ elemnek elerheto neve legyen
 
-### CSS {#css}
+### CSS
 ### JavaScript {#js}
 
 
