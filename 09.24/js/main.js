@@ -18,3 +18,20 @@ const workshops = [
       date: "október 18., szombat 10:30", seats: 12,
       text: "Használt kerékpár átvizsgálása vásárlás előtt, pontról pontra." }
   ];
+
+const grid = document.querySelector("#card-grid");
+const results = document.querySelector("#results");
+const filters = document.querySelector("#filters");
+
+function render(list){
+    grid.replaceChildren();
+    list.foreach((item)=>{
+        const card = document.createElement("li");
+        card.className = "card";
+
+        const tag = document.createElement("span");
+        tag.className = "card-tag"
+        tag.textContent = item.label;
+    }
+    )
+}
