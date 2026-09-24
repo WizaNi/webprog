@@ -105,3 +105,39 @@ p{
     background: var(--ink);
     color: var(--paper);
 }
+.results{
+    color: var(--muted);
+    font-size: .95rem;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 16rem), 1fr);
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+.card{
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--brand);
+    padding: 1.2rem;
+}
+.card-title{
+    margin: .4rem 0;
+}
+.card-tag{
+    font-size: .8rem;
+    font-weight: 700;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: .1rem .6rem;
+}
+.card-date{
+    color: var(--muted);
+    font-size: .9rem;
+    margin: 0 0 .6rem;
+}
+card-seats{
+    font-weight: 700;
+    margin-bottom: 0;
+}
