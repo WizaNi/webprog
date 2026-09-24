@@ -1,14 +1,11 @@
 # Main Note
 
 ## Quick Access
-[Quick Access](#quick-access)
-[Topics](#topics)
-[HTML](#html)
-[Metaadatok](#metaadatok)
-[ARIA](#aria)
-[CSS](#css)
-[JavaScript](#javascript)
-[Lessons](#lessons)
+1. [Topics](#topics)
+2. [HTML](#html)
+3. [CSS](#css)
+4. [JavaScript](#javascript)
+5. [Lessons](#lessons)
 
 
 ### Topics
