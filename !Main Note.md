@@ -1,16 +1,19 @@
 # Main Note
 
 ## Quick Access
-1. [Topics](#topics)
-2. [HTML](#html)
-3. [CSS](#css)
-4. [JavaScript](#js)
-5. [Lessons](#lessons)
+[Quick Access](#quick-access)
+[Topics](#topics)
+[HTML](#html)
+[Metaadatok](#metaadatok)
+[ARIA](#aria)
+[CSS](#css)
+[JavaScript](#javascript)
+[Lessons](#lessons)
 
 
-### Topics {#topics}
+### Topics
 
-1. [Metaadatok](#metadata)
+1. [Metaadatok](#metaadatok)
 2. [ARIA](#aria)
 3. [](#)
 4. [](#)
@@ -21,9 +24,9 @@
 9. [](#)
 10. [](#)
 
-### HTML {#html}
+### HTML
 ___
-#### Metaadatok {#metadata}
+#### Metaadatok
 
 **Charset**
 - utf-8
@@ -43,7 +46,7 @@ ___
 
 **Content:** oldal cime, nev, oldal leirasa
 ___
-#### ARIA {#aria}
+#### ARIA
 - DOM tree – HTML felepitese
 - Render tree – megjelenes
 - Accessibility tree:
@@ -67,10 +70,10 @@ ___
 Minden interkativ elemnek elerheto neve legyen
 
 ### CSS
-### JavaScript {#js}
+### JavaScript
 
 
-### Lessons {#lessons}
+### Lessons
 - [09.08](/Notes/0908.md)
 - [09.17](/Notes/0917.md)
 - [09.24](/Notes/0924.md)
