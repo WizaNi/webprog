@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bringakonyha</title>
+    <script src="/javas/main.js" defer></script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Ugras a tartalomra</a>
+    <header class="header">
+        <div class="container header-bar">
+            <a href="#main" class="logo">Bringakonyha</a>
+            <nav aria-label="Fo menu">
+                <ul class="nav-list">
+                    <li><a href="#workshops">muhelyek</a></li>
+                    <li><a href="#about">rolunk</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container" id="main">
+        <section class="hero">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ea id inventore quae necessitatibus magnam aliquid.</p>
+        </section>
+        <section class="container" id="workshops" aria-labelledby="workshops-title">
+            <h2 id="workshops-title">kovetkezo muhelyek</h2>
+            <div class="filters" role="group" aria-label="szures tema szerint">
+                <button type="button" class="filter"data-category="all" aria-pressed="true">osszes</button>
+                <button type="button" class="filter"data-category="basic" aria-pressed="false">alapok</button>
+                <button type="button" class="filter"data-category="repair" aria-pressed="false">szereles</button>
+                <button type="button" class="filter"data-category="touring" aria-pressed="false">tura</button>
+            </div>
+            <p class="results" id="results" aria-live="polite"></p>
+            <ul class="card-grid" id="card-grid">
+                <li class="card">
+                    <span class="card-tag">alapok</span>
+                    <h3 class="card-title">defekt javitas</h3>
+                    <p class="card-date">szeptember 23., szerda 17:00</p>
+                    <p>belso csereje es foltozas</p>
+                    <p class="card-seats">4 szabad hely</p>
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="about" aria-labelledby="about-title">
+            <h2 id="about-title">rolunk</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="container">Kiss Levente</p>
+    </footer>
+</body>
+</html>
