@@ -137,7 +137,25 @@ p{
     font-size: .9rem;
     margin: 0 0 .6rem;
 }
-card-seats{
+.card-seats{
     font-weight: 700;
     margin-bottom: 0;
+}
+.card-seats-low{
+    color: var(--alert);
+}
+.footer{
+    background: var(--white);
+    border-top: 1px solid var(--line);
+    padding: 1.5rem 0;
+}
+@media (max-width: 30rem){
+    .header-bar{justify-content: center;}
+    .nav-list{gap: 1rem;}
+}
+@media (prefers-reduced-motion: reduce){
+    *{
+        transition-duration: .01s !important;
+        animation-duration: .01s !important;
+    }
 }
