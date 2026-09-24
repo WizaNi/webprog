@@ -79,3 +79,29 @@ p{
 .nav-list a:hover{
     border-bottom: 2px solid var(--brand);
 }
+.hero{
+    padding: 2.5rem 0;
+}
+.section{
+    margin-bottom: 3rem;
+}
+.filters{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+.filter{
+    font: inherit;
+    background: none;
+    color: var(--ink);
+    border:  1px solid var(--line);
+    border-radius: 999px;
+    padding: .5rem 1rem;
+    min-height: 44px;
+    cursor: pointer;
+}
+.filter[aria-pressed="true"]{
+    background: var(--ink);
+    color: var(--paper);
+}
