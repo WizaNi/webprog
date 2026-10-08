@@ -15,5 +15,22 @@ const NAV_ITEMS = [
     },
     {type: "link", text: "Disabled", disabled: true},
 ];
-
 const SEARCH = {placeholder: "Search", buttotText: "Search"}
+
+
+function el(tag, {classname="", text, attrs={}}={}, ...children){
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined) node.text = text;
+    Object.entries(attrs).forEach(([name,value]) =>
+        node.setAttribute(name,value)
+    );
+    return node;
+}
+
+function classNames(...names){
+    return names.filter(Boolean).join(" ")
+}
+function createBrand({text, href})[
+    return el("a", {className: "navbar-brand", text, attrs: {href}});
+]
